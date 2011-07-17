@@ -108,7 +108,7 @@ Although not required, it's recommended that you create a subclass of KIFTestCon
 
 	@end
 
-The next step is to implement a scenario to test the login (+[KIFTestScenario scenarioToLogin]). We'll implement the scenarios as category class methods on KIFTestScenario. This will allow us to easily add on these category methods without needing additional subclasses, and the method name provides a unique identifier for referencing each scenario. Your KIFTestScenario category should look something like this:
+The next step is to implement a scenario to test the login (+[KIFTestScenario scenarioToLogIn]). We'll implement the scenarios as category class methods on KIFTestScenario. This will allow us to easily add on these category methods without needing additional subclasses, and the method name provides a unique identifier for referencing each scenario. Your KIFTestScenario category should look something like this:
 
 *KIFTestScenario+EXAdditions.h*
 
